@@ -9,7 +9,6 @@ For a more detailed explanation of use cases like this: https://medium.com/@ntip
 
 ## Installation
 
-The generator.py file and the **files** folder should be in the same directory **and** must exist.
 Pillow and Reportlab are needed for this and can be installed by the following commands:
 ```python
 pip3 install pillow

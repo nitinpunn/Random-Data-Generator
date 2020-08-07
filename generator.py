@@ -18,6 +18,7 @@ import string
 from PIL import Image
 from reportlab.pdfgen import canvas
 import multiprocessing
+import os
 
 # Settings for text file generation
 
@@ -175,6 +176,10 @@ def generatePDF(amount):
 
 
 if __name__ == "__main__":
+    # Check for files output directory
+    if not os.path.exists("files"):
+        os.makedirs("files")
+
     # User input for desired amount of files
     amount_txt = int(input("Enter amount of txt files: "))
     amount_jpg = int(input("Enter amount of jpg files: "))
