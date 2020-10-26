@@ -17,7 +17,7 @@ pip3 install reportlab
 
 ## Future Improvements
 1. .docx files
-2. .xlsw files
+2. .xlsx files
 3. Better multiprocessing for faster generation
 4. Other filetypes?
 
