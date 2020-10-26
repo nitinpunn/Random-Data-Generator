@@ -3,7 +3,7 @@
 This is a Python script to generate random Text, Image, and PDF files.
 These files can be used for cases when large amounts of randomized data in common filetypes are needed.
 
-Use case: Let's say you're s security engineer evaluating how easily mass compression or encryption can be detected in your environment. This script allows you to generate as many megabytes or gigabytes of data you need to do your evaluation. Using common file types such as this also provides a more realistic scenario of user data.
+Use case: Let's say you're a security engineer evaluating how easily mass compression or encryption can be detected in your environment. This script allows you to generate as many megabytes or gigabytes of data you need to do your evaluation. Using common file types such as this also provides a more realistic scenario of user data.
 
 For a more detailed explanation of use cases like this: https://medium.com/@ntipun/security-use-cases-of-generating-random-files-9f17999963ee
 
